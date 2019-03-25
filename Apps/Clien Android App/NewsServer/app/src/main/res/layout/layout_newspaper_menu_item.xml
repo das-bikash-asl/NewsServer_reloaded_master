@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/newspaper_content_dropdown"
         android:layout_marginStart="32dp"
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@
             app:layout_constraintBottom_toBottomOf="parent"/>
 
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
     <LinearLayout
         android:orientation="vertical"
         android:paddingLeft="16dp"
@@ -64,11 +64,11 @@
             android:paddingBottom="4dp"
             android:paddingRight="4dp"/>
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/newspaper_feature_list">
-            </android.support.v7.widget.RecyclerView>
+            </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
     <View
         android:id="@+id/horizontal_separator"

@@ -44,7 +44,7 @@
                 android:paddingEnd="8dp"
                 android:background="@android:color/black"/>
         </LinearLayout>
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/extended_menu_newspaper_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:background="@android:color/transparent"
             android:layout_gravity="start"
             android:layout_marginTop="16dp">
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
     <View
         android:layout_width="3dp"
@@ -102,14 +102,14 @@
             android:textStyle="bold"
             android:paddingStart="8dp"
             android:layout_marginTop="16dp"/>
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/newspaper_parent_feature_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="8dp"
             android:background="@android:color/transparent"
             android:layout_gravity="start">
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
 
     </LinearLayout>
 </LinearLayout>

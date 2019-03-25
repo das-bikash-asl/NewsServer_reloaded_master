@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_marginBottom="8dp"
     android:layout_gravity="center">
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/article_fragment_image_block"
         android:background="@android:color/white"
         android:layout_width="match_parent"
@@ -93,7 +93,7 @@
                 android:visibility="gone"/>
         </LinearLayout>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
     <TextView
         android:id="@+id/article_fragment_image_alt_text"
         android:layout_width="match_parent"
@@ -118,7 +118,7 @@
         android:padding="2dp"
         android:textSize="16sp"
         android:textIsSelectable="true"/>
-    <com.google.android.gms.ads.AdView
+    <!--<com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/article_adview1"
         android:layout_width="wrap_content"
@@ -144,5 +144,5 @@
         android:layout_gravity="center"
         ads:adSize="BANNER"
         ads:adUnitId="@string/admob_news_server_banner_ad_unit_id_0003">
-    </com.google.android.gms.ads.AdView>
+    </com.google.android.gms.ads.AdView>-->
 </LinearLayout>
