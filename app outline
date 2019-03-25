@@ -1,0 +1,65 @@
+News-Server reloaded
+====================
+
+App components:
+1. User Android app.
+2. Firebase backend.
+3. Tomcat backend powered by Spring boot.
+4. Admin desktop and android app.
+
+App flavours:
+
+1. App data from firebase.
+   =======================
+
+App component functionalities:
+
+a) Firebase backend: 
+	1. User authentication using Firebase Authentication.
+	2. Newspaper structural data persistence using Firebase Realtime database.
+	3. Newspaper data persistence using Firebase Cloud firestore. 
+	4. User profile data persistence using Firebase Cloud firestore. 
+	5. Image storage using firebase Cloud Storage.
+	4. User comment data persistence using Firebase Cloud firestore. 
+
+b) Tomcat backend:
+	1. NewsPaper data parsing and loading that on Firebase Cloud firestore.
+	2. Will provide a REST interface to admin app for admin managements.
+
+c) User Android app:
+	1. Newspaper data browsing.
+	2. User comment management.
+	3. User profile management.
+
+d) Admin desktop and android app:
+	1. Managing Newspaper structural data saved on Firebase Realtime database.
+	2. Managing Newspaper html structure saved on Tomcat backend.
+	3. Overall backend data management.
+
+
+2. App data from Tomcat backend:
+   =============================
+
+App component functionalities:
+
+a) Firebase backend: 
+	1. User authentication using Firebase Authentication.
+	2. Image storage using firebase Cloud Storage.
+
+
+b) Tomcat backend:
+	1. NewsPaper data parsing and data storage.
+	2. Will provide a REST interface to admin app for admin managements.
+	3. Will provide a REST interface for newspaper data, user profile management, user comments management.
+
+c) User Android app:
+	1. Newspaper data browsing.
+	2. User comment management.
+	3. User profile management.
+
+d) Admin desktop and android app:
+	1. Managing Newspaper structural data saved on Tomcat backend.
+	2. Managing Newspaper html structure saved on Tomcat backend.
+	3. Overall backend data management.
+
+
