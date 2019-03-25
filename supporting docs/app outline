@@ -20,7 +20,8 @@ a) Firebase backend:
 	3. Newspaper data persistence using Firebase Cloud firestore. 
 	4. User profile data persistence using Firebase Cloud firestore. 
 	5. Image storage using firebase Cloud Storage.
-	4. User comment data persistence using Firebase Cloud firestore. 
+	6. User comment data persistence using Firebase Cloud firestore. 
+	7. Notification by cloud messaging.
 
 b) Tomcat backend:
 	1. NewsPaper data parsing and loading that on Firebase Cloud firestore.
@@ -45,7 +46,7 @@ App component functionalities:
 a) Firebase backend: 
 	1. User authentication using Firebase Authentication.
 	2. Image storage using firebase Cloud Storage.
-
+	3. Notification by cloud messaging.
 
 b) Tomcat backend:
 	1. NewsPaper data parsing and data storage.
@@ -61,5 +62,23 @@ d) Admin desktop and android app:
 	1. Managing Newspaper structural data saved on Tomcat backend.
 	2. Managing Newspaper html structure saved on Tomcat backend.
 	3. Overall backend data management.
+
+3. Data parsing on android device:
+   ===============================
+
+App component functionalities:
+
+a) Firebase backend: 
+	1. User authentication using Firebase Authentication.
+	2. Newspaper structural data persistence using Firebase Realtime database.
+	3. User profile data persistence using Firebase Cloud firestore. 
+	4. Notification by cloud messaging.
+
+b) User Android app:
+	1. NewsPaper data parsing and data storage.
+	2. Newspaper data browsing.
+	3. User profile management.
+
+
 
 
