@@ -48,7 +48,7 @@ a) Firebase backend:
 	2. Image storage using firebase Cloud Storage.
 	3. Notification by cloud messaging.
 
-b) Tomcat backend:
+b) Tomcat backend:ASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 	1. NewsPaper data parsing and data storage.
 	2. Will provide a REST interface to admin app for admin managements.
 	3. Will provide a REST interface for newspaper data, user profile management, user comments management.
