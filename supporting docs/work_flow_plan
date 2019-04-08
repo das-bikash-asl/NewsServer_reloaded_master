@@ -1,7 +1,0 @@
-=> work start at 3rd app flavour(data parsing on device).
-    Steps:
-	1. Newspaper Config data model finalization for Realtime Db.
-	2. User profile and preference data model finalization for cloud firestore db.
-	3. Notification generation by cloud messaging service.
-	4. Restructure client app.
-	5. Restructure admin app.
