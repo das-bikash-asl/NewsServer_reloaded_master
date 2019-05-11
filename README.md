@@ -1,4 +1,4 @@
-# *News-Server* Reloaded
+# *News-Server* Reloaded Master
 
 This repository is for coordinating all other child repositories of "News-Server Reloaded" project.
 
