@@ -18,3 +18,6 @@ app and app data sources. It downloads settings and article data from the parser
 for status monitoring and operation control of *Data Coordinator App*.
 
 * [`Android app`](https://github.com/dasBikash84/news_server_android_app): Front end android app.
+
+Apart from the above mentioned repositories, `Firebase Real-Time Database` and `Firebase Firestore database` has been used as
+remote data sources for this project.
