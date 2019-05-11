@@ -1,6 +1,6 @@
 # *News-Server* Reloaded Master
 
-This repository is for coordinating all other child repositories of "News-Server Reloaded" project.
+This repository is for planning and coordinating development of all other child repositories of "News-Server Reloaded" project.
 
 Primarily the [News-Server](https://github.com/dasBikash84/NewsServer) app was launched as a standalone android app and it had no back end. That app fetches newspaper articles from 18 different newspapers and displays that. Now on this project, an effort has been made to add back-end to <strong>*News-Server*</strong> project. Hence it is named <strong>`News-Server Reloaded`</strong>.
 
