@@ -17,4 +17,4 @@ app and app data sources. It downloads settings and article data from the parser
 * [`Data coordinator REST service`](https://github.com/dasBikash84/ns_reloaded_data_coordinator_rest_service): REST service 
 for status monitoring and operation control of *Data Coordinator App*.
 
-* [`Android add`](https://github.com/dasBikash84/news_server_android_app): Front end android app.
+* [`Android app`](https://github.com/dasBikash84/news_server_android_app): Front end android app.
