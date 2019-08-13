@@ -15,7 +15,7 @@ Repositories under *News-Server Reloaded* are as below:
 * [`Data coordinator REST service`](https://github.com/dasBikash84/ns_reloaded_data_coordinator_jersey_rest_service): REST service 
 for status monitoring and operation control of *Data Coordinator App*.
 
-* [`Android app`](https://github.com/dasBikash84/News-Server-Android-Client): Front end android app.
+* [`Android app`](https://github.com/dasBikash84/News-Server-Android-Client): Front end android app. App store  [link](https://play.google.com/store/apps/details?id=com.dasbikash.news_server)
 
 Apart from the above mentioned repositories, `Firebase Real-Time Database` and `Firebase Firestore database` has been used as
 remote data sources for this project.
